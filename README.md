@@ -6,10 +6,7 @@ with a worked example for each concept and a diagram wherever the idea has movin
 
 ## Read it here
 
-**[Open the study guide](https://YOUR-GITHUB-USERNAME.github.io/ob-study-guide/)**
-
-> Replace `YOUR-GITHUB-USERNAME` in this link with your actual GitHub username once
-> GitHub Pages is switched on. That is the link to send your friends.
+**[Open the study guide](https://swas204.github.io/OB-study-guide/)**
 
 Or clone the repo and open `index.html` in any browser. No build step, no dependencies.
 
@@ -45,6 +42,17 @@ with a full answer skeleton, and a one-page mental map for the night before.
   answer from a half-mark one.
 - **Red boxes are traps**, including several findings that are the opposite of what most people
   assume.
+
+## Reading tools
+
+The bar at the top of every unit page has:
+
+- **Hide contents** to close the sidebar while you read.
+- **Mark as done** at the end of every section, with a progress count at the top.
+- **Undone only** to hide finished sections and go back through what you skipped.
+- **Light / dark theme.** Dark is the default.
+
+Progress is saved in your own browser, so it stays on that device and resets if you clear site data.
 
 ## Sources
 
