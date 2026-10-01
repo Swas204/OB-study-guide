@@ -30,7 +30,11 @@ any other unit.
 tick-box checklist of every one of them so you can track revision.
 
 Each unit page ends with a 5-mark question bank, a 10-mark question bank, a Section C case study
-with a full answer skeleton, and a one-page mental map for the night before.
+with an answer outline.
+
+Units 3, 4 and 5 follow the depth of the professor's class notes, which use Aswathappa as the anchor
+text. Where his notes for a unit stop early, the remaining sections are written at the same short
+depth from standard textbook coverage.
 
 ## How to use it
 
