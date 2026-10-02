@@ -59,7 +59,9 @@
     // "Unit 2A · Individual Behaviour & Personality", built from the current sidebar entry
     var cur = document.querySelector('.side-unit.current');
     var label = 'Organisational Behaviour · Start here';
-    if (cur && isUnit) {
+    if (document.body.getAttribute('data-title')) {
+      label = document.body.getAttribute('data-title');
+    } else if (cur && isUnit) {
       var code = cur.querySelector('.su-n').textContent.replace('U', '').replace('·', '');
       label = 'Unit ' + code + ' · ' + cur.lastElementChild.textContent.trim();
     }
@@ -129,6 +131,24 @@
       });
     });
 
+    /* ---------- show / hide answer buttons (question bank) ---------- */
+    Array.prototype.forEach.call(document.querySelectorAll('.answer'), function (ans) {
+      ans.hidden = true;
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'ans-btn';
+      btn.textContent = 'Show answer';
+      btn.setAttribute('aria-expanded', 'false');
+      ans.parentNode.insertBefore(btn, ans);
+      btn.addEventListener('click', function () {
+        var open = ans.hidden;
+        ans.hidden = !open;
+        btn.textContent = open ? 'Hide answer' : 'Show answer';
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+        btn.classList.toggle('open', open);
+      });
+    });
+
     if (!isUnit) return;
 
     /* ---------- split the page into sections ---------- */
@@ -138,6 +158,8 @@
     var current = null;
     Array.prototype.slice.call(wrap.children).forEach(function (el) {
       if (el.classList.contains('pager')) { current = null; return; }
+      // a heading without an id (e.g. "Section A · 5 marks") is a divider, not a trackable section
+      if (el.matches('h2.sec:not([id])')) { current = null; return; }
       var starts = (el.matches('h2.sec[id]') || el.matches('h3[id]'));
       if (starts) {
         current = document.createElement('section');
