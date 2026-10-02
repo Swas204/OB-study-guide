@@ -26,8 +26,8 @@ every one of them so you can track revision.
 Each unit page ends with a 5-mark question bank, a 10-mark question bank and a Section C case study
 with an answer outline.
 
-The units follow the depth of the professor's class notes, which use Aswathappa as the anchor text.
-Course-plan topics that are not in his notes are kept at surface level at the end of each unit.
+The units follow the professor's class notes, which use Aswathappa as the anchor text, with each of his
+points explained in a logical order.
 
 ## How to use it
 
