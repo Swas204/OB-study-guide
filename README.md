@@ -1,8 +1,8 @@
 # Organisational Behaviour · COM401-8 · Study Guide
 
-A complete walkthrough of the **COM401-8 Organisational Behaviour** syllabus (CHRIST University,
-BCom Honours, Semester VII). Every heading in the syllabus document, explained in plain language
-with a worked example for each concept and a diagram wherever the idea has moving parts.
+A walkthrough of **Units 3, 4 and 5** of the **COM401-8 Organisational Behaviour** syllabus (CHRIST
+University, BCom Honours, Semester VII), explained in plain language with worked examples. Units 1
+and 2 are read directly from the professor's website.
 
 ## Read it here
 
@@ -15,26 +15,19 @@ Or clone the repo and open `index.html` in any browser. No build step, no depend
 | Page | Covers | Headings |
 |---|---|---|
 | `index.html` | Course map, CO1 to CO5 decoded, full syllabus checklist, exam pattern, book guide | |
-| `unit1.html` | Introduction to Organisational Behaviour | 12 |
-| `unit2-personality.html` | Individual Behaviour and Personality | 9 |
-| `unit2-values-attitudes.html` | Values, Attitudes and Job Satisfaction | 10 |
-| `unit2-emotions-stress-motivation.html` | Emotions, Stress and Motivation | 13 |
 | `unit3.html` | Learning, Perception and Individual Decision-Making | 15 |
 | `unit4.html` | Group Behaviour and Team Dynamics | 12 |
 | `unit5.html` | Power, Conflict, Negotiation, Culture and Change | 22 |
+| `qbank-unit3.html` to `qbank-unit5.html` | Exam-style 5, 10 and 15-mark questions with model answers and marking schemes | |
 
-Unit 2 is split across three pages because it carries 29 syllabus headings on its own, more than
-any other unit.
+All 49 syllabus headings of Units 3 to 5 are covered. The index page has a tick-box checklist of
+every one of them so you can track revision.
 
-**All 90 syllabus headings are covered**, mapped to 92 numbered sections. The index page has a
-tick-box checklist of every one of them so you can track revision.
-
-Each unit page ends with a 5-mark question bank, a 10-mark question bank, a Section C case study
+Each unit page ends with a 5-mark question bank, a 10-mark question bank and a Section C case study
 with an answer outline.
 
-Units 3, 4 and 5 follow the depth of the professor's class notes, which use Aswathappa as the anchor
-text. Where his notes for a unit stop early, the remaining sections are written at the same short
-depth from standard textbook coverage.
+The units follow the depth of the professor's class notes, which use Aswathappa as the anchor text.
+Course-plan topics that are not in his notes are kept at surface level at the end of each unit.
 
 ## How to use it
 
